@@ -1,9 +1,36 @@
 apiVersion: v1
 entries:
   houyidb:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: "Scan the public GHCR image explicitly (0.1.1 republish)."
+      artifacthub.io/images: |
+        - name: houyidb
+          image: ghcr.io/houyidb-community/houyidb:v0.2.0-beta.5
+    apiVersion: v2
+    appVersion: 0.2.0-beta.5
+    created: "2026-10-28T17:36:33.886368+08:00"
+    description: HouyiDB vector database (single-writer stateful node; leader/follower
+      via two releases)
+    digest: e92f12e511a71148ea6a332204d7a9c01eb809049e04a558dfe41d129712ac06
+    home: https://github.com/houyidb-community/houyidb
+    keywords:
+    - vectordb
+    - hnsw
+    - vector-search
+    maintainers:
+    - name: HouyiDB Contributors
+    name: houyidb
+    sources:
+    - https://github.com/houyidb-community/houyidb
+    type: application
+    urls:
+    - https://houyidb.top/charts/houyidb-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 0.2.0-beta.5
-    created: "2026-10-28T10:12:20.481586+08:00"
+    created: "2026-10-28T17:36:33.885944+08:00"
     description: HouyiDB vector database (single-writer stateful node; leader/follower
       via two releases)
     digest: b797d3c49216fd51e1cf0e217949c42b9cf84c1a9337fcf3df6d528fb3799a52
@@ -21,4 +48,4 @@ entries:
     urls:
     - https://houyidb.top/charts/houyidb-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-28T10:12:20.480842+08:00"
+generated: "2026-10-28T17:36:33.884851+08:00"
