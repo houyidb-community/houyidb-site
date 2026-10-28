@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  houyidb:
+  - apiVersion: v2
+    appVersion: 0.2.0-beta.5
+    created: "2026-10-28T10:12:20.481586+08:00"
+    description: HouyiDB vector database (single-writer stateful node; leader/follower
+      via two releases)
+    digest: b797d3c49216fd51e1cf0e217949c42b9cf84c1a9337fcf3df6d528fb3799a52
+    home: https://github.com/houyidb-community/houyidb
+    keywords:
+    - vectordb
+    - hnsw
+    - vector-search
+    maintainers:
+    - name: HouyiDB Contributors
+    name: houyidb
+    sources:
+    - https://github.com/houyidb-community/houyidb
+    type: application
+    urls:
+    - https://houyidb.top/charts/houyidb-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-10-28T10:12:20.480842+08:00"
